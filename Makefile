@@ -6,7 +6,7 @@
 #    By: ibah <ibah@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/25 14:32:30 by ibah              #+#    #+#              #
-#    Updated: 2023/02/05 14:31:56 by ibah             ###   ########.fr        #
+#    Updated: 2023/02/05 14:35:50 by ibah             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,6 @@ SRCS:=	ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c \
 OBJS:=	${SRCS:%.c=%.o}
 NAME:=	libft.a
 CFLAGS:= -Wall -Wextra -Werror
-ARFLAGS:= crs
 
 all:		${NAME}
 
