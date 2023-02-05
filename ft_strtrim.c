@@ -6,13 +6,13 @@
 /*   By: ibah <ibah@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/02 17:12:20 by ibah              #+#    #+#             */
-/*   Updated: 2023/02/02 18:55:01 by ibah             ###   ########.fr       */
+/*   Updated: 2023/02/04 16:51:49 by ibah             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	check_ismatch(char c, char const *set)
+static int	check_ismatch(char c, char const *set)
 {
 	while (*set)
 	{
